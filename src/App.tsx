@@ -23,7 +23,13 @@ function App() {
           radius={50}
           fill={"cornflowerblue"}
         />
-        <Circle id="1" x={40} y={30} radius={20} fill={"firebrick"} />
+        <CircleWithContext
+          id="1"
+          x={40}
+          y={30}
+          radius={20}
+          fill={"firebrick"}
+        />
       </svg>
       <br />
       <RenderContext />
